@@ -111,5 +111,5 @@ func DIncrListByRecuision(list *IntList, delta int) {
 	DIncrListByRecuision(list.Next, delta)
 }
 
-// 总结一下递归的思路，链表天生就是递归的结构，我知道了当前节点，那么就能直到下一个节点
+// 总结一下递归的思路，链表天生就是递归的结构，我知道了当前节点，那么就能知道下一个节点
 // 所以我只用处理当前节点，下一个节点交给下一层处理

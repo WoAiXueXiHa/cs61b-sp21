@@ -1,0 +1,28 @@
+{
+    "go.useLanguageServer": true,
+    "go.alternateTools": {
+        "go": "C:\\Users\\hp\\AppData\\Local\\Programs\\Go\\bin\\go.exe",
+        "gopls": "D:\\DSH\\go\\bin\\gopls.exe"
+    },
+    "go.toolsEnvVars": {
+        "PATH": "C:\\Users\\hp\\AppData\\Local\\Programs\\Go\\bin;D:\\DSH\\go\\bin;${env:PATH}"
+    },
+    "terminal.integrated.env.windows": {
+        "PATH": "C:\\Users\\hp\\AppData\\Local\\Programs\\Go\\bin;D:\\DSH\\go\\bin;${env:PATH}"
+    },
+    "[go]": {
+        "editor.defaultFormatter": "golang.go",
+        "editor.formatOnSave": true,
+        "editor.quickSuggestions": {
+            "other": "on",
+            "comments": "off",
+            "strings": "off"
+        },
+        "editor.suggestOnTriggerCharacters": true,
+        "editor.suggest.showVariables": true,
+        "editor.suggest.showFields": true,
+        "editor.suggest.showFunctions": true,
+        "editor.tabCompletion": "on",
+        "editor.parameterHints.enabled": true
+    }
+}
